@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* En index.css */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'JetBrains Mono', 'SF Mono', 'Monaco', monospace;
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  @apply bg-[#0F172A] text-white;
+  scroll-behavior: smooth;
+}
+
+.section {
+  @apply min-h-screen py-16;
+}
+
+/* Agregar estas clases para el scrollbar personalizado */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-[#0a1326];
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-700 rounded;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-600;
+}
+
+#experience {
+  padding-top: 80px; /* Ajusta este valor */
+  margin-top: -80px; /* Mismo valor pero negativo */
+}
+
+#projects {
+  padding-top: 100px; /* Ajusta este valor */
+  margin-top: -200px; /* Mismo valor pero negativo */
+}
