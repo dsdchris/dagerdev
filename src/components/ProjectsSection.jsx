@@ -4,7 +4,7 @@ function ProjectsSection() {
       title: "Asistente de IA para una Cafetería",
       subtitle: "Desarrollador de Automatización",
       image: "/miniatura.jpg",
-      description: "Desarrollé una aplicación web para control de ingresos y gastos personales. Implementé funcionalidades como registro de movimientos, balance automático y visualización moderna del historial financiero.",
+      description: "Desarrollé e implementé un asistente virtual basado en IA, integrándolo con WhatsApp y Telegram mediante n8n. Diseñé y estructuré los prompts y la base de datos para gestionar consultas de clientes, configurando las conexiones API entre OpenAI y la Meta Developer Platform para automatizar todo el flujo. Esto permitió ofrecer soporte en tiempo real a través de WhatsApp y Telegram, atendiendo pedidos, resolviendo dudas y recibiendo retroalimentación de manera fluida y eficiente.",
       skills: ["IA", "n8n", "API", "OpenAI", "Meta"],
       link: "https://t.me/Aidagerbot"
     },
@@ -70,7 +70,7 @@ function ProjectsSection() {
               <p className="text-sm sm:text-base lg:text-xl font-medium flex items-center group-hover:text-teal-300 transition-colors duration-300 lg:text-[12px]">{project.subtitle}</p>
               
               {/* Mostrar "Descargar APK" para proyectos que tengan apkLink */}
-              {project.apkLink && (
+              {/* {project.apkLink && (
                 <div className="mb-4 sm:mb-8">
                   <button 
                     onClick={(e) => {
@@ -88,7 +88,7 @@ function ProjectsSection() {
                     </svg>
                   </button>
                 </div>
-              )}
+              )} */}
               
               <p className="mt-2 mb-4 text-gray-300 text-xs sm:text-sm lg:text-[13px]">{project.description}</p>
               <div className="flex flex-wrap font-bold">
