@@ -19,7 +19,7 @@ function ProjectsSection() {
     },
     {
       title: "Dagerid",
-      subtitle: "Desarrollador de Automatización",
+      subtitle: "Desarrollador Full-Stack",
       image: "/image.png",
       description: "Dagerid es una app web moderna para gestionar tus hábitos de lectura. Te permite registrar libros, seguir tu progreso, visualizar estadísticas y desbloquear logros que te motivan a seguir leyendo, todo con una interfaz intuitiva y atractiva.",
       skills: ["JavaScript", "HTML", "Bootstrap", "LOCALSTORAGE", "API REST"],
